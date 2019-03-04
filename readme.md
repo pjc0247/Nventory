@@ -97,3 +97,24 @@ if (item == null)
 else
     Console.WriteLine("Welcome customer!");
 ```
+
+Security considerations
+----
+__If you don't care about Hackers__<br>
+It's okay, most of singleplay games doesn't care about manipulations.<br>
+Just use __Nventory__ for online storage. All items will be safe on any devices.
+
+__If you care about Securities__<br>
+You may not use __AddItem__ or __UpdateItem__ on client. Items should be issued by server.<br>
+__ConsumeItem__ is safe, it's always decreasing the quantity.<br>
+<br>
+Most important part is __firestore__ rules.<br>
+Hackers still have write access to your databases unless you blocked it.
+```json
+{
+    // firestore rules goes here
+}
+```
+
+
+
