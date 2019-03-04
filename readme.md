@@ -42,7 +42,7 @@ Please see example below:
     "heal" : 5
 }
 ```
-These items can be stacked with same options. <br>
+Each items can be stacked with same options. <br>
 You may carry 2 __good__ bananas, 3 __poor__ bananas and so on.<br>
 <br>
 In this case, just use `GetHashCode` method.
