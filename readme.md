@@ -102,7 +102,7 @@ Security considerations
 ----
 ### __If you don't care about Hackers__
 It's okay, most of singleplay games doesn't care about manipulations.<br>
-Just use __Nventory__ for online storage. All items will be safe on any devices.
+Just use __Nventory__ for online storage. All items will be avaliable on any devices.
 
 ### __If you care about Securities__
 You may not use __AddItem__ or __UpdateItem__ on client. Items should be issued by server.<br>
