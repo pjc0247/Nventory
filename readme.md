@@ -14,7 +14,7 @@ await Nventory.AddItem("legendary-sword", new {
 ```
 
 __Unique item and Consumables__<br>
-Since we have generalized the interfaces to fit most of games, there're no __Unique items__ in __Nventory__.<br>
+Since we have generalized the interfaces to fit most of games, there're no __unique items__ in __Nventory__.<br>
 Every item has its quantity and can be counted more than 2.<br>
 We don't have native support for it, you should implement your own stuffs.<br>
 Good news, it's pretty simple.
@@ -22,7 +22,7 @@ Good news, it's pretty simple.
 __Unique equipments__<br>
 Think about equipments, they cannot be stacked in most cases even if they have excatly same options.<br>
 `GUID` would be the best practice for this case.<br>
-If you add 2 swords, they never be stacked.
+Even if you add 2 swords, they never be stacked.
 ```cs
 var key = $"sword.{(new Guid()).ToString()}";
 
