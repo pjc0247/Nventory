@@ -2,6 +2,11 @@ Nventory
 ====
 Your serverless inventory that actually works
 
+Deploy
+----
+```
+firebase deploy
+```
 
 API
 ----
