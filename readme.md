@@ -110,7 +110,7 @@ It's okay, most of singleplay games doesn't care about manipulations.<br>
 Just use __Nventory__ for online storage. All items will be avaliable on any devices.
 
 ### __If you care about Securities__
-You may not use __AddItem__ or __UpdateItem__ on client. Items should be issued by server.<br>
+You should not use __AddItem__ or __UpdateItem__ on client. Items are always issued by server.<br>
 __ConsumeItem__ is safe, it's always decreasing the quantity.<br>
 <br>
 Most important part is __firestore__ rules.<br>
