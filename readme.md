@@ -18,7 +18,7 @@ await Nventory.AddItem("legendary-sword", new {
 });
 ```
 
-__Unique item and Consumables__<br>
+### Unique item and Consumables
 Since we have generalized the interfaces to fit most of games, there're no __unique items__ in __Nventory__.<br>
 Every item has its quantity and can be counted more than 2.<br>
 We don't have native support for it, you should implement your own stuffs.<br>
@@ -57,6 +57,9 @@ var key = $"banana.{banana.GetHashCode()}";
 
 await Nventory.AddItem(key, banana);
 ```
+
+__Consumables without variantes__<br>
+Nothing to do!
 
 __UpdateItem__<br>
 Creates or Replaces item with given data.<br>
